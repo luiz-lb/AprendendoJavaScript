@@ -1,6 +1,6 @@
 const estadoSessao = sessionStorage.getItem('estado');//verifica o estado da pagina
 
-const maximo = 5;//gerando dois números aleatorio até 6
+const maximo = 6;//gerando dois números aleatorio até 6
 const numeroInteiro = Math.floor(Math.random()*maximo) + 1;
 const numeroInteiro2 = Math.floor(Math.random()*maximo) + 1;
 
