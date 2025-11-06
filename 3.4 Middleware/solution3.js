@@ -11,10 +11,10 @@ function logger(req, res, next) {
 
 app.use(logger);
 
-app.get("/", (req, res) => {
-  res.send("Hello");
-});
-
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
+});
+
+app.get("/", (req, res) => {
+  res.send("Hello");
 });
